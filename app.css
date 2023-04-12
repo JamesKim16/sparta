@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    /* 화면 전체 높이만큼 body를 늘림 */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.instagram {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.blog {
+    background-color: green;
+    color: white;
+}
+
+.youtube {
+    background-color: red;
+    color: white;
+}
+
+.profile {
+    width: 180px;
+    height: 180px;
+    background-color: green;
+    border-radius: 100%;
+    border: 2px solid white;
+    background-image: url('구승.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.main {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.sub {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.ex {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.btn {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+
+.btn-custom1 {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #fff;
+    border-color: #000000;
+    color: #000000;
+    transition: all 0.3s ease;
+
+}
+
+.btn-custom1:hover {
+    background-color: #f196ea;
+    border-color: #f05ac3;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+.btn-custom2 {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.btn-custom2:hover {
+    background-color: #2ceb06;
+    border-color: #84f052;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+.btn-custom3 {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.btn-custom3:hover {
+    background-color: #da0808;
+    border-color: #000000;
+    color: #fff;
+    transform: scale(1.1);
+}
